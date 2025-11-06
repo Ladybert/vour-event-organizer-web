@@ -1073,6 +1073,12 @@ section,
   transform: translateY(-10px);
 }
 
+.event-dokumenter-item {
+  background-color: var(--surface-color);
+  /* border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%); */
+  height: 100%;
+}
+
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
