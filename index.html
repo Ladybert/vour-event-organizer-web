@@ -404,14 +404,14 @@
               data-aos-delay="100"
               data-bs-toggle="modal"
               data-bs-target="#modalEvent"
-              style="cursor: pointer;">
+              style="cursor: pointer;"
+              id="event"
+            >
               <div class="service-item position-relative">
                 <div class="icon">
                   <i class="bi bi-camera"></i>
                 </div>
-                <a class="stretched-link">
-                  <h3>Event Dokumenter</h3>
-                </a>
+                <h3>Event Dokumenter</h3>
                 <p>
                   Cocok untuk Event : Seminar, Competition Outdoor/indoor, Festival, Gathering,
                   dan Pelatihan (Workshop)
@@ -429,14 +429,13 @@
               data-bs-toggle="modal"
               data-bs-target="#modalWedding"
               style="cursor: pointer;"
+              id="wedding"
             >
               <div class="service-item position-relative">
                 <div class="icon">
                   <i class="bi bi-balloon-heart"></i>
                 </div>
-                <a class="stretched-link">
-                  <h3>Wedding Dokumenter</h3>
-                </a>
+                <h3>Wedding Dokumenter</h3>
                 <p>
                   Cocok untuk Pesta pernikahan, Prewedding, Akad Nikah, Family Gathering, dan Photo Album Nikah
                 </p>
@@ -452,14 +451,13 @@
               data-bs-toggle="modal"
               data-bs-target="#modalTour"
               style="cursor: pointer;"
+              id="tour"
             >
               <div class="service-item position-relative">
                 <div class="icon">
                   <i class="bi bi-luggage"></i>
                 </div>
-                <a href="#" class="stretched-link">
-                  <h3>Tour & Travel Dokumenter</h3>
-                </a>
+                <h3>Tour & Travel Dokumenter</h3>
                 <p>
                   Cocok untuk Pesta pernikahan, Prewedding, Akad Nikah, Family Gathering, dan Photo Album Nikah
                 </p>
@@ -476,14 +474,13 @@
               data-bs-toggle="modal"
               data-bs-target="#modalOther"
               style="cursor: pointer;"
+              id="other"
             >
               <div class="service-item position-relative">
                 <div class="icon">
                   <i class="bi bi-three-dots"></i>
                 </div>
-                <a href="#" class="stretched-link">
-                  <h3>Paket Lainnya</h3>
-                </a>
+                <h3>Paket Lainnya</h3>
                 <p>
                   Cocok untuk Pesta pernikahan, Prewedding, Akad Nikah, Family Gathering, dan Photo Album Nikah
                 </p>
@@ -525,7 +522,7 @@
       <!-- /Call To Action Section -->
 
       <!-- Portfolio Section -->
-      <section id="portfolio" class="portfolio section">
+      <section id="portofolio" class="portfolio section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Portfolio</h2>
@@ -2064,7 +2061,7 @@
           <div class="modal-content">
             <div class="modal-header bg-warning text-dark px-4">
               <h5 class="modal-title fw-bold" id="modalEventLabel">
-                Event Dokumenter <span class="fw-medium">Price List</span>
+                Paket Lainnya <span class="fw-medium">Price List</span>
               </h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
@@ -2073,21 +2070,21 @@
               <div class="col justify-content-center align-content-center">
                 <div class="event-dokumenter-item d-flex mb-6 row justify-content-around align-content-center">
                   <div class="col-lg-4 col-md-6">
-                    <h4 class="fw-bold mt-4 mb-3" style="color: #CE8946;">Paket Bronze - Rp 400.000</h4>
+                    <h4 class="fw-bold mt-4 mb-3" style="color: #CE8946;">Paket Birthday Party - Rp 300.000</h4>
                     <p>
                       Ketentuan dan benefit :
                       <ul>
                         <li>
-                          Paket tertera adalah untuk Event Maks. 6 jam
+                          Paket yang tertera adalah untuk 3 jam acara
                         </li>
                         <li>
-                          1 Dokumenter
+                          1 Crew Dokumenter
                         </li>
                         <li>
                           1 Kamera Digital
                         </li>
                         <li>
-                          Foto dan Video Uneditting Unlimited
+                          Foto dan Video Unlimited
                         </li>
                         <li>
                           1 Konten Video durasi 30 - 60 detik
@@ -2108,19 +2105,16 @@
                         <strong>Cocok untuk event : </strong>
                           <ul>
                           <li>
-                            Seminar
+                            Ulang Tahun Anak-anak/Remaja/Dewasa/Lansia
                           </li>
                           <li>
-                            Competition Outdoor/Indoor
+                            Ulang Tahun di Sekolah
                           </li>
                           <li>
-                            Festival
+                            Ulang Tahun di Rumah Makan
                           </li>
                           <li>
-                            Gathering
-                          </li>
-                          <li>
-                            Pelatihan (Workshop)
+                            Ulang Tahun di tempat yang sekiranya terjangkau
                           </li>
                         </ul>
                       </p>
@@ -2146,10 +2140,20 @@
                         <strong>Pemesanan : </strong>
                         <ul>
                           <li>
-                            Booking dan DP Via WhatsApp
+                            Booking Via WhatsApp
                           </li>
                           <li>
-                            Pelunasan dilakukan maks. h-1 acara
+                            Pembayaran dilakukan maks setelah sesi foto
+                          </li>
+                        </ul>
+                      </p>
+                    </div>
+                    <div class="other-desc-group d-flex my-3 flex-column border border-warning justify-content-center p-3 bg-warning-subtle rounded-2">
+                      <p>
+                        <strong>Catatan</strong>
+                        <ul>
+                          <li>
+                            Transportasi exclude kecuali Surabaya dan Sidoarjo 
                           </li>
                         </ul>
                       </p>
@@ -2161,18 +2165,18 @@
 
                 <div class="event-dokumenter-item d-flex mb-6 row justify-content-around align-content-center">
                   <div class="col-lg-4 col-md-6">
-                    <h4 class="fw-bold mt-4 text-black-50 mb-3">Paket Silver - Rp 700.000</h4>
+                    <h4 class="fw-bold mt-4 text-black-50 mb-3">Paket Foto Cosplay - Rp 30.000</h4>
                     <p>
-                      Ketentuan dan benefit sama seperti <span class="fw-medium" style="color: #CE8946;">Paket Bronze,</span> dengan tambahan :
+                      Ketentuan dan benefit :
                       <ul>
                         <li>
-                          Tambahan 1 Dokumenter
+                          Paket tertera untuk solo photo durasi 30 Menit
                         </li>
                         <li>
-                          5 Foto Editing
+                          Mendapatkan 3 Foto Editing
                         </li>
                         <li>
-                          1 Konten tambahan sesuai request
+                          10 Foto Uneditting
                         </li>
                       </ul>
                     </p>
@@ -2188,21 +2192,12 @@
                     <div class="other-desc-group">
                       <p>
                         <strong>Cocok untuk event : </strong>
-                          <ul>
+                        <ul>
                           <li>
-                            Seminar
+                            Cosplay Indoor/Outdoor
                           </li>
                           <li>
-                            Competition Outdoor/Indoor
-                          </li>
-                          <li>
-                            Festival
-                          </li>
-                          <li>
-                            Gathering
-                          </li>
-                          <li>
-                            Pelatihan (Workshop)
+                            Cosplay Competition
                           </li>
                         </ul>
                       </p>
@@ -2228,10 +2223,20 @@
                         <strong>Pemesanan : </strong>
                         <ul>
                           <li>
-                            Booking dan DP Via WhatsApp
+                            Booking Via WhatsApp
                           </li>
                           <li>
-                            Pelunasan dilakukan maks. h-1 acara
+                            Pelunasan dilakukan maks setelah sesi foto
+                          </li>
+                        </ul>
+                      </p>
+                    </div>
+                     <div class="other-desc-group d-flex my-3 flex-column border border-warning justify-content-center p-3 bg-warning-subtle rounded-2">
+                      <p>
+                        <strong>Catatan</strong>
+                        <ul>
+                          <li>
+                            Transportasi exclude kecuali Surabaya dan Sidoarjo 
                           </li>
                         </ul>
                       </p>
@@ -2243,15 +2248,27 @@
 
                 <div class="event-dokumenter-item d-flex mb-6 row justify-content-around align-content-center">
                   <div class="col-lg-4 col-md-6">
-                    <h4 class="fw-bold mt-4 text-warning mb-3">Paket Gold - Rp 1.200.000</h4>
+                    <h4 class="fw-bold mt-4 text-warning mb-3">Paket Graduate - Rp 200.000</h4>
                     <p>
-                      Ketentuan dan benefit sama seperti <span class="fw-medium text-black-50">Paket Silver,</span> dengan tambahan :
+                      Ketentuan dan benefit :
                       <ul>
                         <li>
-                          Tambahan 10 Foto Editing
+                          Paket tertera untuk 1 wisudawan + Keluarga/teman
                         </li>
                         <li>
-                          Live Streaming
+                          15 File Foto Editing
+                        </li>
+                        <li>
+                          1 Sesi selama 45 Menit
+                        </li>
+                        <li>
+                          Pose diarahkan 
+                        </li>
+                        <li>
+                          Unlimited Shoot
+                        </li>
+                        <li>
+                          File Foto dikirim Via Google Drive
                         </li>
                       </ul>
                     </p>
@@ -2269,19 +2286,22 @@
                         <strong>Cocok untuk event : </strong>
                           <ul>
                           <li>
-                            Seminar
+                            Wisuda kelulusan Sarjana/Diploma
                           </li>
                           <li>
-                            Competition Outdoor/Indoor
+                            Wisuda kelulusan Magister
                           </li>
                           <li>
-                            Festival
+                            Wisuda kelulusan Doktoral/Professor
                           </li>
                           <li>
-                            Gathering
+                            Hari kelulusan SD
                           </li>
                           <li>
-                            Pelatihan (Workshop)
+                            Hari kelulusan SMP
+                          </li>
+                          <li>
+                            Hari kelulusan SMA
                           </li>
                         </ul>
                       </p>
@@ -2291,7 +2311,7 @@
                         <strong>Cara Kerja : </strong>
                         <ul>
                           <li>
-                            Diskusi Event dan Rundown Via Chat
+                            Diskusi Via Chat
                           </li>
                           <li>
                             Eksekusi Hari-H acara
@@ -2307,10 +2327,20 @@
                         <strong>Pemesanan : </strong>
                         <ul>
                           <li>
-                            Booking dan DP Via WhatsApp
+                            Booking Via WhatsApp
                           </li>
                           <li>
-                            Pelunasan dilakukan maks. h-1 acara
+                            Pelunasan dilakukan maks setelah sesi foto
+                          </li>
+                        </ul>
+                      </p>
+                    </div>
+                     <div class="other-desc-group d-flex my-3 flex-column border border-warning justify-content-center p-3 bg-warning-subtle rounded-2">
+                      <p>
+                        <strong>Catatan</strong>
+                        <ul>
+                          <li>
+                            Transportasi exclude kecuali Surabaya dan Sidoarjo 
                           </li>
                         </ul>
                       </p>
@@ -2366,7 +2396,7 @@
               <ul>
                 <li>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="#home"> Beranda</a>
+                  <a href="#hero"> Beranda</a>
                 </li>
                 <li>
                   <i class="bi bi-chevron-right"></i>
@@ -2378,7 +2408,7 @@
                 </li>
                 <li>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Portofolio</a>
+                  <a href="#portofolio"> Portofolio</a>
                 </li>
               </ul>
             </div>
@@ -2388,22 +2418,19 @@
               <ul>
                 <li>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Web Design</a>
+                  <a href="#event"> Event Dokumenter</a>
                 </li>
                 <li>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Web Development</a>
+                  <a href="#wedding"> Wedding Dokumenter</a>
                 </li>
                 <li>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Product Management</a>
-                </li>
-                <li>
-                  <i class="bi bi-chevron-right"></i> <a href="#"> Marketing</a>
+                  <a href="#tour"> Tour & Travel Dokumenter</a>
                 </li>
                 <li>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="#"> Graphic Design</a>
+                  <a href="#other"> Other Package Dokumenter</a>
                 </li>
               </ul>
             </div>
