@@ -40,14 +40,7 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
-
-    <!-- =======================================================
-  * Template Name: Gp
-  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-  * Updated: Aug 15 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <link href="assets/css/modal-details.css" rel="stylesheet" />
   </head>
 
   <body class="index-page">
@@ -574,6 +567,7 @@
                   <a
                       title="More Details"
                       class="details-link"
+                      onclick="openPortfolioModal('Details1-IwWk6CVcP6jshdI8')"
                       >
                       <i class="bi bi-link-45deg" style="cursor: pointer;"></i>
                   </a>
@@ -600,6 +594,7 @@
                   <a
                       title="More Details"
                       class="details-link"
+                      onclick="openPortfolioModal('Details2-ut93ccVlhhsjfWt5')"
                       >
                       <i class="bi bi-link-45deg" style="cursor: pointer;"></i>
                   </a>
@@ -625,6 +620,7 @@
                   <a
                       title="More Details"
                       class="details-link"
+                      onclick="openPortfolioModal('Details3-HOHi7dKoNrPANVW0')"
                       >
                       <i class="bi bi-link-45deg" style="cursor: pointer;"></i>
                   </a>
@@ -650,6 +646,7 @@
                   <a
                       title="More Details"
                       class="details-link"
+                      onclick="openPortfolioModal('Details4-vGEA3pmN5KYbO9QV')"
                       >
                       <i class="bi bi-link-45deg" style="cursor: pointer;"></i>
                   </a>
@@ -675,6 +672,7 @@
                   <a
                       title="More Details"
                       class="details-link"
+                      onclick="openPortfolioModal('Details5-k8c8Cp3OY5axIFKU')"
                       >
                       <i class="bi bi-link-45deg" style="cursor: pointer;"></i>
                   </a>
@@ -713,107 +711,6 @@
       </section>
       <!-- /Portfolio Section -->
 
-      <!-- Stats Section -->
-      <section id="stats" class="stats section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gy-4 align-items-center justify-content-between">
-            <div class="col-lg-5">
-              <img src="assets/img/stats-img.jpg" alt="" class="img-fluid" />
-            </div>
-
-            <div class="col-lg-6">
-              <h3 class="fw-bold fs-2 mb-3">
-                Voluptatem dignissimos provident quasi
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-                aute irure dolor in reprehenderit
-              </p>
-
-              <div class="row gy-4">
-                <div class="col-lg-6">
-                  <div class="stats-item d-flex">
-                    <i class="bi bi-emoji-smile flex-shrink-0"></i>
-                    <div>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="232"
-                        data-purecounter-duration="1"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Happy Clients</strong>
-                        <span>consequuntur quae</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Stats Item -->
-
-                <div class="col-lg-6">
-                  <div class="stats-item d-flex">
-                    <i class="bi bi-journal-richtext flex-shrink-0"></i>
-                    <div>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="521"
-                        data-purecounter-duration="1"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Projects</strong>
-                        <span>adipisci atque cum quia aut</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Stats Item -->
-
-                <div class="col-lg-6">
-                  <div class="stats-item d-flex">
-                    <i class="bi bi-headset flex-shrink-0"></i>
-                    <div>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="1453"
-                        data-purecounter-duration="1"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Hours Of Support</strong>
-                        <span>aut commodi quaerat</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Stats Item -->
-
-                <div class="col-lg-6">
-                  <div class="stats-item d-flex">
-                    <i class="bi bi-people flex-shrink-0"></i>
-                    <div>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="32"
-                        data-purecounter-duration="1"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Hard Workers</strong>
-                        <span>rerum asperiores dolor</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Stats Item -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Stats Section -->
-
       <!-- Testimonials Section -->
       <section id="testimonials" class="testimonials section dark-background">
         <img
@@ -843,12 +740,12 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <img
-                    src="assets/img/testimonials/testimonials-1.jpg"
+                    src="https://lh3.googleusercontent.com/a/ACg8ocKH7YVR0chXMOVeYnF8USKqPGIF8it32R2rZlUGUc5dNOntPzxkHQ=w54-h54-p-rp-mo-br100"
                     class="testimonial-img"
                     alt=""
                   />
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
+                  <h3>Muhammad Rashad</h3>
+                  <h4>CTO &amp; Founder</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i
                     ><i class="bi bi-star-fill"></i
@@ -859,10 +756,7 @@
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
                     <span
-                      >Proin iaculis purus consequat sem cure digni ssim donec
-                      porttitora entum suscipit rhoncus. Accusantium quam,
-                      ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                      risus at semper.</span
+                      >Selama mengikuti event yang diselenggarakan oleh VourEO saya sangat rispek bgt. Koordinasi Tim nya bagus, semakin banyak event yang diselenggarakan teknik pengelolaan event nya makin dipercaya.</span
                     >
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
@@ -873,12 +767,12 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <img
-                    src="assets/img/testimonials/testimonials-2.jpg"
+                    src="https://lh3.googleusercontent.com/a-/ALV-UjUYxjj__Zkusle6q8CcwV-b5ZSPlsqiPOO-x5APKf3roPayXqx1=w108-h108-p-rp-mo-br100"
                     class="testimonial-img"
                     alt=""
                   />
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
+                  <h3>Chesna Nug1409</h3>
+                  <h4>Event Contributor</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i
                     ><i class="bi bi-star-fill"></i
@@ -889,10 +783,7 @@
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
                     <span
-                      >Export tempor illum tamen malis malis eram quae irure
-                      esse labore quem cillum quid cillum eram malis quorum
-                      velit fore eram velit sunt aliqua noster fugiat irure amet
-                      legam anim culpa.</span
+                      >Luar biasa! Timnya sangat profesional, rapi dalam setiap detail, dan hasil acaranya melebihi ekspektasi. Layak dapat bintang lima! 🌟 Juga pelayanan sangat memuaskan, koordinasi solid, dan konsep acara tersusun sempurna. Terima kasih atas kerja kerasnya!</span
                     >
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
@@ -903,12 +794,12 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <img
-                    src="assets/img/testimonials/testimonials-3.jpg"
+                    src="https://lh3.googleusercontent.com/a-/ALV-UjVtzKWhqka6m3jdqg7lAswaYW1jklBaSlVZzKxvofeArBsz2bZF=w72-h72-p-rp-mo-br100"
                     class="testimonial-img"
                     alt=""
                   />
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
+                  <h3>Raffi Akbar</h3>
+                  <h4>CEO &amp; Founder</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i
                     ><i class="bi bi-star-fill"></i
@@ -919,10 +810,7 @@
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
                     <span
-                      >Enim nisi quem export duis labore cillum quae magna enim
-                      sint quorum nulla quem veniam duis minim tempor labore
-                      quem eram duis noster aute amet eram fore quis sint
-                      minim.</span
+                      >Tim nya keren</span
                     >
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
@@ -933,12 +821,12 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <img
-                    src="assets/img/testimonials/testimonials-4.jpg"
+                    src="https://lh3.googleusercontent.com/a-/ALV-UjVbbjw2e-BSAXW2cQeogKO8KrnzRDW_QwTBtISdV1-TgDUWOJpk=w54-h54-p-rp-mo-br100"
                     class="testimonial-img"
                     alt=""
                   />
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
+                  <h3>Neny Anggraeni</h3>
+                  <h4>Ibu Rumah Tangga</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i
                     ><i class="bi bi-star-fill"></i
@@ -949,10 +837,7 @@
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
                     <span
-                      >Fugiat enim eram quae cillum dolore dolor amet nulla
-                      culpa multos export minim fugiat minim velit minim dolor
-                      enim duis veniam ipsum anim magna sunt elit fore quem
-                      dolore labore illum veniam.</span
+                      >Nice event 👍 …</span
                     >
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
@@ -963,12 +848,12 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <img
-                    src="assets/img/testimonials/testimonials-5.jpg"
+                    src="https://lh3.googleusercontent.com/a-/ALV-UjXV9U_QmvUplCTmq6efHatstp8mSvcfRGiGo1Omri20ABC3w--J=w72-h72-p-rp-mo-br100"
                     class="testimonial-img"
                     alt=""
                   />
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
+                  <h3>Tiffani Oriza</h3>
+                  <h4>MC Event</h4>
                   <div class="stars">
                     <i class="bi bi-star-fill"></i
                     ><i class="bi bi-star-fill"></i
@@ -979,10 +864,7 @@
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
                     <span
-                      >Quis quorum aliqua sint quem legam fore sunt eram irure
-                      aliqua veniam tempor noster veniam enim culpa labore duis
-                      sunt culpa nulla illum cillum fugiat legam esse veniam
-                      culpa fore nisi cillum quid.</span
+                      >No Comment</span
                     >
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
@@ -1169,7 +1051,7 @@
           <!-- End Google Maps -->
 
           <div class="row gy-4">
-            <div class="col-lg-4">
+            <div class="row-lg-4">
               <div
                 class="info-item d-flex"
                 data-aos="fade-up"
@@ -1211,68 +1093,6 @@
                 </div>
               </div>
               <!-- End Info Item -->
-            </div>
-
-            <div class="col-lg-8">
-              <form
-                action="forms/contact.php"
-                method="post"
-                class="php-email-form"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div class="row gy-4">
-                  <div class="col-md-6">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      placeholder="Your Name"
-                      required=""
-                    />
-                  </div>
-
-                  <div class="col-md-6">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      placeholder="Your Email"
-                      required=""
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="subject"
-                      placeholder="Subject"
-                      required=""
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <textarea
-                      class="form-control"
-                      name="message"
-                      rows="6"
-                      placeholder="Message"
-                      required=""
-                    ></textarea>
-                  </div>
-
-                  <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">
-                      Your message has been sent. Thank you!
-                    </div>
-
-                    <button type="submit">Send Message</button>
-                  </div>
-                </div>
-              </form>
             </div>
             <!-- End Contact Form -->
           </div>
@@ -1954,7 +1774,6 @@
 
       <!-- Modal Event Lainnya -->
       <div class="modal fade" id="modalOther" tabindex="-1" aria-labelledby="modalEventLabel" aria-hidden="true" style="z-index: 10000;">
-        <!-- tambahin class modal-fullscreen-xxl-down di sini -->
         <div class="modal-dialog modal-fullscreen-xxl-down modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header bg-warning text-dark px-4">
@@ -2306,7 +2125,7 @@
                 </li>
                 <li>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="#portofolio"> Portofolio</a>
+                  <a href="#portfolio"> Portofolio</a>
                 </li>
               </ul>
             </div>
@@ -2340,7 +2159,7 @@
                 our products and services!
               </p>
               <form
-                action="forms/newsletter.php"
+                action="forms_unavailable_for_now"
                 method="post"
                 class="php-email-form"
               >
@@ -2401,5 +2220,11 @@
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/include.js"></script>
+    
+    <!-- Data Proyek -->
+    <script src="assets/js/portfolioDetails.js"></script>
+
+    <!-- Modal Handler -->
+    <script src="assets/js/modalHandler.js"></script>
   </body>
 </html>

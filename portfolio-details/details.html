@@ -1,340 +1,61 @@
-<section id="portfolio-details" class="portfolio-details section">
+<!-- details.html -->
+<div class="modal-dialog modal-fullscreen-xxl-down modal-dialog-centered">
+  <div class="modal-content">
+    <div class="modal-header bg-warning text-dark px-4">
+      <h5 class="modal-title fw-bold" id="portfolioModalLabel">
+        Detail Proyek <span class="fw-medium">Portfolio</span>
+      </h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
-
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  }
+    <div class="modal-body px-4 pb-4">
+      <div class="row gy-4">
+        <div class="col-lg-6">
+          <div class="portfolio-details-slider swiper init-swiper" style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 2500
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
                 }
-              </script>
-
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/books-1.jpg" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
+              }
+            </script>
+            <div class="swiper-wrapper align-items-center">
+              <!-- Slides akan diisi via JS -->
             </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-<!-- /Portfolio Details Section -->
-
-<div class="modal fade" id="modalEvent" tabindex="-1" aria-labelledby="modalEventLabel" aria-hidden="true" style="z-index: 10000;">
-        <!-- tambahin class modal-fullscreen-xxl-down di sini -->
-        <div class="modal-dialog modal-fullscreen-xxl-down modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header bg-warning text-dark px-4">
-              <h5 class="modal-title fw-bold" id="modalEventLabel">
-                Event Dokumenter <span class="fw-medium">Price List</span>
-              </h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-
-            <div class="modal-body px-4 pb-4">
-              <div class="col justify-content-center align-content-center">
-                <div class="event-dokumenter-item d-flex mb-6 row justify-content-around align-content-center">
-                  <div class="col-lg-4 col-md-6">
-                    <h4 class="fw-bold mt-4 mb-3" style="color: #CE8946;">Paket Bronze - Rp 400.000</h4>
-                    <p>
-                      Ketentuan dan benefit :
-                      <ul>
-                        <li>
-                          Paket tertera adalah untuk Event Maks. 6 jam
-                        </li>
-                        <li>
-                          1 Dokumenter
-                        </li>
-                        <li>
-                          1 Kamera Digital
-                        </li>
-                        <li>
-                          Foto dan Video Uneditting Unlimited
-                        </li>
-                        <li>
-                          1 Konten Video durasi 30 - 60 detik
-                        </li>
-                      </ul>
-                    </p>
-
-                    <a href="">
-                      <div class="shadow-sm d-flex mt-5 justify-content-center gap-2 align-content-center text-white rounded-2 px-6 py-2" style="background: #CE8946;">
-                        <i class="bi bi-whatsapp"></i>
-                        Hubungi Kami
-                      </div>
-                    </a>
-                  </div>
-                  <div class="d-flex flex-column my-4 col-lg-4 col-md-6">
-                    <div class="other-desc-group">
-                      <p>
-                        <strong>Cocok untuk event : </strong>
-                          <ul>
-                          <li>
-                            Seminar
-                          </li>
-                          <li>
-                            Competition Outdoor/Indoor
-                          </li>
-                          <li>
-                            Festival
-                          </li>
-                          <li>
-                            Gathering
-                          </li>
-                          <li>
-                            Pelatihan (Workshop)
-                          </li>
-                        </ul>
-                      </p>
-                    </div>
-                    <div class="other-desc-group">
-                      <p>
-                        <strong>Cara Kerja : </strong>
-                        <ul>
-                          <li>
-                            Diskusi Event dan Rundown Via Chat
-                          </li>
-                          <li>
-                            Eksekusi Hari-H acara
-                          </li>
-                          <li>
-                            S&K Berlaku
-                          </li>
-                        </ul>
-                      </p>
-                    </div>
-                    <div class="other-desc-group">
-                      <p>
-                        <strong>Pemesanan : </strong>
-                        <ul>
-                          <li>
-                            Booking dan DP Via WhatsApp
-                          </li>
-                          <li>
-                            Pelunasan dilakukan maks. h-1 acara
-                          </li>
-                        </ul>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <hr class="opacity-100" style="border: 2px solid #CE8946 ;">
-
-                <div class="event-dokumenter-item d-flex mb-6 row justify-content-around align-content-center">
-                  <div class="col-lg-4 col-md-6">
-                    <h4 class="fw-bold mt-4 text-black-50 mb-3">Paket Silver - Rp 700.000</h4>
-                    <p>
-                      Ketentuan dan benefit sama seperti <span class="fw-medium" style="color: #CE8946;">Paket Bronze,</span> dengan tambahan :
-                      <ul>
-                        <li>
-                          Tambahan 1 Dokumenter
-                        </li>
-                        <li>
-                          5 Foto Editing
-                        </li>
-                        <li>
-                          1 Konten tambahan sesuai request
-                        </li>
-                      </ul>
-                    </p>
-
-                    <a href="">
-                      <div class="shadow-sm d-flex mt-5 justify-content-center gap-2 align-content-center text-white rounded-2 px-6 py-2 bg-secondary">
-                        <i class="bi bi-whatsapp"></i>
-                        Hubungi Kami
-                      </div>
-                    </a>
-                  </div>
-                  <div class="d-flex flex-column my-4 col-lg-4 col-md-6">
-                    <div class="other-desc-group">
-                      <p>
-                        <strong>Cocok untuk event : </strong>
-                          <ul>
-                          <li>
-                            Seminar
-                          </li>
-                          <li>
-                            Competition Outdoor/Indoor
-                          </li>
-                          <li>
-                            Festival
-                          </li>
-                          <li>
-                            Gathering
-                          </li>
-                          <li>
-                            Pelatihan (Workshop)
-                          </li>
-                        </ul>
-                      </p>
-                    </div>
-                    <div class="other-desc-group">
-                      <p>
-                        <strong>Cara Kerja : </strong>
-                        <ul>
-                          <li>
-                            Diskusi Event dan Rundown Via Chat
-                          </li>
-                          <li>
-                            Eksekusi Hari-H acara
-                          </li>
-                          <li>
-                            S&K Berlaku
-                          </li>
-                        </ul>
-                      </p>
-                    </div>
-                    <div class="other-desc-group">
-                      <p>
-                        <strong>Pemesanan : </strong>
-                        <ul>
-                          <li>
-                            Booking dan DP Via WhatsApp
-                          </li>
-                          <li>
-                            Pelunasan dilakukan maks. h-1 acara
-                          </li>
-                        </ul>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <hr class="border border-secondary border-2 opacity-100">
-
-                <div class="event-dokumenter-item d-flex mb-6 row justify-content-around align-content-center">
-                  <div class="col-lg-4 col-md-6">
-                    <h4 class="fw-bold mt-4 text-warning mb-3">Paket Gold - Rp 1.200.000</h4>
-                    <p>
-                      Ketentuan dan benefit sama seperti <span class="fw-medium text-black-50">Paket Silver,</span> dengan tambahan :
-                      <ul>
-                        <li>
-                          Tambahan 10 Foto Editing
-                        </li>
-                        <li>
-                          Live Streaming
-                        </li>
-                      </ul>
-                    </p>
-
-                     <a href="">
-                      <div class="shadow-sm d-flex mt-5 justify-content-center gap-2 align-content-center text-white rounded-2 px-6 py-2 bg-warning">
-                        <i class="bi bi-whatsapp"></i>
-                        Hubungi Kami
-                      </div>
-                    </a>
-                  </div>
-                   <div class="d-flex flex-column my-4 col-lg-4 col-md-6">
-                    <div class="other-desc-group">
-                      <p>
-                        <strong>Cocok untuk event : </strong>
-                          <ul>
-                          <li>
-                            Seminar
-                          </li>
-                          <li>
-                            Competition Outdoor/Indoor
-                          </li>
-                          <li>
-                            Festival
-                          </li>
-                          <li>
-                            Gathering
-                          </li>
-                          <li>
-                            Pelatihan (Workshop)
-                          </li>
-                        </ul>
-                      </p>
-                    </div>
-                    <div class="other-desc-group">
-                      <p>
-                        <strong>Cara Kerja : </strong>
-                        <ul>
-                          <li>
-                            Diskusi Event dan Rundown Via Chat
-                          </li>
-                          <li>
-                            Eksekusi Hari-H acara
-                          </li>
-                          <li>
-                            S&K Berlaku
-                          </li>
-                        </ul>
-                      </p>
-                    </div>
-                    <div class="other-desc-group">
-                      <p>
-                        <strong>Pemesanan : </strong>
-                        <ul>
-                          <li>
-                            Booking dan DP Via WhatsApp
-                          </li>
-                          <li>
-                            Pelunasan dilakukan maks. h-1 acara
-                          </li>
-                        </ul>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <hr class="border border-warning border-2 opacity-100">
-
-              </div>
-            </div>
+            <div class="swiper-pagination" style="bottom: 12px;"></div>
           </div>
         </div>
+
+        <!-- Kolom Kanan: Info Proyek -->
+        <div class="col-lg-6 d-flex flex-column">
+          <div class="other-desc-group mb-4">
+            <h4 class="fw-bold text-warning">{{title}}</h4>
+            <p class="portfolio-description-text"></p>
+          </div>
+
+          <div class="other-desc-group mb-4">
+            <p>
+              <strong>Informasi Proyek:</strong>
+              <ul class="portfolio-info-list mb-0"></ul>
+            </p>
+          </div>
+
+          <a href="" class="mt-auto" style="text-decoration: none;">
+            <div class="shadow-sm d-flex justify-content-center gap-2 align-items-center text-white rounded-2 px-6 py-2 bg-warning">
+              <i class="bi bi-whatsapp"></i>
+              Hubungi Kami
+            </div>
+          </a>
+        </div>
       </div>
+    </div>
+  </div>
+</div>
